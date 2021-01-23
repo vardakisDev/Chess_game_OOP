@@ -12,10 +12,10 @@ namespace skaki.lib
         private String black_player;
         private String white_player;
 
-        public Game(string white_player,string black_player)
+        public Game(string black_player,string white_player)
         {
-            this.white_player = white_player;
             this.black_player = black_player;
+            this.white_player = white_player;
         }
 
         public void saveToDB()
