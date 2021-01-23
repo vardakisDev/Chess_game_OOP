@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skaki", "skaki\skaki.csproj", "{5B6067D4-6FC9-4CC5-A910-A384AD985DF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B6067D4-6FC9-4CC5-A910-A384AD985DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6067D4-6FC9-4CC5-A910-A384AD985DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6067D4-6FC9-4CC5-A910-A384AD985DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6067D4-6FC9-4CC5-A910-A384AD985DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A11F0E7-0817-4DA0-81EA-DAF644C49F44}
+	EndGlobalSection
+EndGlobal
