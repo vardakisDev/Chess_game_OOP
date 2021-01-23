@@ -21,12 +21,11 @@ namespace skaki.lib
         public void saveToDB()
         {
             SQLiteConnection conn = new SQLiteConnection(Constants.connectionstring);
-            conn.Open();
+            conn.Open();    
             SQLiteCommand sqlite_cmd;
             sqlite_cmd = conn.CreateCommand();
             string insertQuery = "Insert into chess_table (black_player,white_player) Values('" + black_player + "','" + white_player + "'  )";
             sqlite_cmd.CommandText = insertQuery;
-
             sqlite_cmd.ExecuteNonQuery();
             conn.Close();
 
