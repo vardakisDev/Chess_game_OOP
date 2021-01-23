@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace skaki.lib
 {
-    class User
+    public static class Constants
     {
-
+         public static string connectionstring = "Data Source=chess_db.db;Version=3;";
     }
 }

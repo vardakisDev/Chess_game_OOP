@@ -15,16 +15,16 @@ namespace skaki.lib
         private int time = 1800;
         private Point currentPoint;
         public bool moving;
-        public Timer timerWhite;
+        public Timer timerOfPlayer;
         
 
 
         public Player(bool isBlack)
         {
             this.isBlack = isBlack;
-            timerWhite = new Timer();
-            timerWhite.Interval = 1000;
-            timerWhite.Tick += new EventHandler(timer_tick);
+            timerOfPlayer = new Timer();
+            timerOfPlayer.Interval = 1000;
+            timerOfPlayer.Tick += new EventHandler(timer_tick);
         }
 
 
@@ -33,7 +33,7 @@ namespace skaki.lib
         { 
             currentPoint =  e.Location;
             this.moving = true;
-            timerWhite.Enabled = true;
+            timerOfPlayer.Enabled = true;
         }
 
         public Point Mouse_move(object sender, MouseEventArgs e)
@@ -51,7 +51,6 @@ namespace skaki.lib
         public void Mouse_up(object sender, MouseEventArgs e)
         {
             this.moving = false;
-            timerWhite.Enabled = false;
         }
 
         public void timer_tick(Object myObject,
