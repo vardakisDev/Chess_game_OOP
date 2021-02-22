@@ -81,8 +81,9 @@ namespace skaki
             this.label4.Text = DateTime.Now.ToString();
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
-
-  
+        }
     }
 }

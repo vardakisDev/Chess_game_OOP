@@ -207,6 +207,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(892, 586);
             this.panel1.TabIndex = 34;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
@@ -398,7 +399,7 @@
             this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox21.Image = global::skaki.Properties.Resources.Chess_plt60;
-            this.pictureBox21.Location = new System.Drawing.Point(450, 431);
+            this.pictureBox21.Location = new System.Drawing.Point(465, 431);
             this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(45, 52);
@@ -430,7 +431,7 @@
             this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox19.Image = global::skaki.Properties.Resources.Chess_plt60;
-            this.pictureBox19.Location = new System.Drawing.Point(572, 431);
+            this.pictureBox19.Location = new System.Drawing.Point(582, 431);
             this.pictureBox19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(45, 52);
@@ -542,7 +543,7 @@
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox7.Image = global::skaki.Properties.Resources.Chess_pdt60;
-            this.pictureBox7.Location = new System.Drawing.Point(572, 109);
+            this.pictureBox7.Location = new System.Drawing.Point(582, 110);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(45, 52);
@@ -638,7 +639,7 @@
             this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox12.Image = global::skaki.Properties.Resources.Chess_ndt60;
-            this.pictureBox12.Location = new System.Drawing.Point(572, 48);
+            this.pictureBox12.Location = new System.Drawing.Point(582, 48);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(45, 52);
